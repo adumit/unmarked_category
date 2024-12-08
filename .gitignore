@@ -1,0 +1,14 @@
+.env
+*.ipynb
+*.csv
+*.json
+*.jsonl
+*.txt
+__pycache__
+*.pickle
+*.npy
+*.pkl
+*.parquet
+*.pdf
+*.docx
+*.doc
