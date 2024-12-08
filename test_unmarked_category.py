@@ -1,4 +1,5 @@
 from logging import getLogger
+import logging
 
 import click
 import numpy as np
@@ -251,4 +252,5 @@ def main(topic: str, num_articles: int = 10):
         logger.info(f"{outlet}: Euclidean = {euclidean:.4f}, Cosine Similarity = {cosine:.4f}")
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     main()
